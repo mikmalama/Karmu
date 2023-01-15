@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{ background: red; color:yellow;}
+        .yyy{font-size: 155;}
+    </style>
+</head>
+<body>
+    <h1 id="a">Hello Nepal</h1>
+    <button onclick="document.getElementById('a').classList.add('red')">AddClass</button>
+    <button onclick="document.getElementById('a').classList.remove('red')">removeclass</button>
+    <button onclick="document.getElementById('a').classList.toggle('red')">Class</button>
+    <button onclick="abc()">all</button>
+    <script>
+        function abc()
+        {
+            document.getElementById('a').classList.toggle('red')
+            document.getElementById('a').classList.add('yyy')
+
+        }
+        
+    </script>
+</body>
+</html>

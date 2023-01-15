@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        //Array
+        var products=["cloths","shoes","mobile"];
+        console.log(products(0))
+        console.log(products(1))
+        for(var a=0; a<4; a++)
+        {
+            console.log("loop",products[a])  
+        }
+        for(const abc of products)
+        {
+            console.log("for of ",abc)   
+        }
+        console.log("lenth", products.length)
+        console.log("sort", products.sort())
+        console.log("reverse", products.reverse())
+        console.log("last data", products.pop())
+        console.log("last data", products)
+        product.push("mikma")
+        console.log("last data", products)
+        console.log("last data", products)
+    </script>
+    <script>
+        var age=[20,35,100,46,94,55,45]
+        console.log(products.concat(age))
+        console.log(products.join('/'))
+        //find, filter,map
+        var d=age.find(efg);
+        function efg(q)
+        {
+            return q>20
+        }
+        console.log(d)
+        //filter
+        var ss=age.filter(efg);
+        function efg(q)
+        {
+            return q>20
+        }
+        console.log(ss)
+        //map
+        var dw=age.map(efg)
+        function efg(q)
+        
+        {
+            return q+10
+        }
+        console.log(dw)
+        var nu=[1,5,8,10,22]
+        console.log(nu.filter((f)=>f>5))
+        console.log(nu.find((f)=>f>5))
+        console.log(nu.map((f)=>f+5))
+        
+        var productss={id:1,Pname:"scurt",price:22,img:"abc.jpg"}
+        console.log(productss)
+        console.log(productss.Pname)
+        console.log(productss.price)
+
+        var Pdata=[
+            {id:1,Pname:"sort",price:22,img:"bcf.jpg"},
+            {id:1,Pname:"pen",price:2,img:"bcf.jpg"},
+            {id:1,Pname:"pencil",price:10,img:"xx.jpg"}
+        ]
+        console.log(Pdata)
+        console.log(Pdata[0].Pname)
+    </script>
+    
+</body>
+</html>

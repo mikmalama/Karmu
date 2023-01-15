@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bar > div {width: 20px; height: 2px; background: black; margin: 5px;}
+        .chg > div:nth-child(3){display: none;}
+        .chg > div:nth-child(1){transform: rotate(20deg) translate(0px,10px);}
+        .chg > div:nth-child(2){transform: rotate(-20deg) translate(0px,-10px);}
+        .dd{display: none;}
+
+    </style>
+</head>
+<body>
+    <div class="bar" id="bar" onclick="abc">
+        <div></div>  <div></div>  <div></div>
+
+    </div>
+    <nav>
+        <ul id="nav">
+            <li>Home</li>  <li>Home</li>  <li>Home</li>
+
+        </ul>
+    </nav>
+    <script>
+        function abc()
+        {
+            documnent.getElementById('bar').classList.toggle('chg')
+            documnent.getElementById('nav').classList.toggle(dd)
+
+        }
+    </script>
+</body>
+</html>
